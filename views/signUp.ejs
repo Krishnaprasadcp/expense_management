@@ -1,0 +1,35 @@
+<%-include('partials/header')-%>
+    <div class="signUpForm">
+        <div class="insideForm">
+            <div class="signInHeader">
+                <h2 class="signInColor">SIGN UP</h2>
+            </div>
+
+            <form class="mainForm" action="" method="post">
+                <div class="name">
+                    <p class="nameText">Name</p>
+                    <input class="NameInput" type="text" name="name">
+                    
+                </div>
+                <div class="email">
+                    <p class="emailText">Email</p>
+                    <input class="emailInput" type="email" name="email" >
+                </div>
+
+                <div class="password">
+                    <p class="newPasswordText">Enter new password</p>
+                    <input class="passwordInput" type="text" name="password" >
+                </div>
+
+                <div class="password">
+                    <p class="confirmNewPasswordText">Confirm new password</p>
+                    <input class="passwordInput" type="text" name="password" >
+                </div>
+                
+                <div class="button">
+                 <input type="submit" value="CREATE ACCOUNT" class="signUpButton" >
+                </div>
+            </form>
+        </div>
+    </div>
+<%-include('partials/footer')-%>

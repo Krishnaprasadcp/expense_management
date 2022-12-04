@@ -1,0 +1,222 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.backGroundImage{
+    background-size: cover;
+   background-color: aqua;
+   width: 100%;
+   position: relative;
+}
+.backGroundImage2{
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 15%;
+    width: 25%;
+}
+
+.footer{
+    position:absolute;
+    text-align: start;
+    bottom: 0;
+    width: 50%;
+    height:20px;
+    color:bisque;
+    font-size: 30px;
+    margin-left: 40%;
+    margin-bottom: -2%;
+}
+
+.Rectangle5{
+    position: absolute;
+    color: white;
+    margin-top: 0.5%;
+    margin-left: -68%;
+    padding: 3%;
+}
+.button1{
+    position:absolute;
+    margin-left: 86%;
+    margin-top: 4%;
+    
+    color: black;
+}
+.btn{
+    border:2px solid;
+    border-radius:90px ;
+    font-size: 20px;
+    height: 35px;
+    
+}
+.description{
+    position: absolute;
+    color: white;
+    margin-top: 20%;
+    margin-left: -35%;
+   
+}
+
+.description2{
+    padding-top: 20px;
+    margin-right: 50%;
+    
+}
+.description3{
+    font-size: 20px;
+}
+.btn-primary{
+   color: black;
+   background-color: white;
+}
+.btn-primary:hover{
+    background-color: bisque;
+}
+.form{
+    position: absolute;
+    border: 3px ;
+    width:623px;
+    height: 691px;
+    background-color:#181818;
+    border-radius: 53px;
+    margin-top: 5%;
+ 
+}
+.signInHeader{
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 45px;
+    margin-top: -36%;
+ 
+}
+.signInColor{
+    color: white;
+}
+.userName{
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+    
+} 
+.password{
+    text-align: center;
+    margin-top: 10%;
+}
+.insideForm{
+    margin-top: 40%;
+    
+    
+}
+.usernameText{
+    font-size: 25px;
+    margin-right: 42%;
+    margin-bottom: 0;
+    color: white;
+    opacity: 0.5;
+    font-family: 'Inter', sans-serif;
+    
+}
+/* .passwordInput{
+    background-color: aliceblue;
+    opacity: 0.5;
+} */
+input[type=text]{
+    border: none;
+    box-sizing: border-box;
+    border-bottom: 2px solid  aliceblue;
+    
+    width:60%;
+    padding: 0%;
+    background-color:#181818;
+    color: white;
+    
+}
+.passwordText{
+    font-size: 25px;
+    margin-right: 45%;
+    margin-bottom: 0;
+    color: white;
+    opacity: 0.5;
+}
+.link{
+    color: blue;
+}
+.signup{
+    margin-left: 20%;
+    color: white;
+}
+.loginButton{
+    font-size: 40px;
+    border-radius: 53px;
+    
+}
+.button{
+    text-align: center;
+    margin-top: 12%;
+}
+.signUpForm{
+    position: absolute;
+    border: 3px ;
+    width:623px;
+    height: 730px;
+    background-color:#181818;
+    border-radius: 53px;
+    margin-top: 5%;
+}
+.name{
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.nameText{
+    font-size: 25px;
+    margin-right: 49%;
+    margin-bottom: 0;
+    color: white;
+    opacity: 0.5;
+    font-family: 'Inter', sans-serif;
+}
+.email{
+    text-align: center;
+    margin-top: 5%;
+}
+.emailText{
+    font-size: 25px;
+    margin-right: 50%;
+    margin-bottom: 0;
+    color: white;
+    opacity: 0.5;
+}
+input[type=email]{
+    border: none;
+    box-sizing: border-box;
+    border-bottom: 2px solid  aliceblue;
+    
+    width:60%;
+    padding: 0%;
+    background-color:#181818;
+    color: white;
+    
+}
+.newPasswordText{
+    font-size: 25px;
+    margin-right: 27%;
+    margin-bottom: 0;
+    color: white;
+    opacity: 0.5;
+}
+.confirmNewPasswordText{
+    font-size: 25px;
+    margin-right: 23%;
+    margin-bottom: 0;
+    color: white;
+    opacity: 0.5;
+}
+.mainForm{
+    margin-top: -8%;
+}
+.signUpButton{
+    font-size: 25px;
+    border-radius: 53px;
+}
